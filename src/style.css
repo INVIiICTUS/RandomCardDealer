@@ -1,6 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  /* The image used */
   background-image: url("https://i.pinimg.com/originals/58/89/6a/58896ae54f80348333ee269498e94b6b.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -74,11 +73,6 @@ body {
 }
 
 #botoncenter {
-  text-align: center;
-}
-#titulo {
-  background-color: black;
-  color: rgb(59, 6, 252);
   text-align: center;
 }
 
