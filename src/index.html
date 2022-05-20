@@ -7,17 +7,42 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="cartas-style.css" type="text/css" />
-    <title>Generador de Naipes</title>
+    <title>Random card generator</title>
   </head>
   <body>
-    <div id="carta">
+    <h2 class="position-absolute top-0 start-50 translate-middle-x mt-2 fs-1 fst-italic" style="color: white">TRY YOUR LUCK</h2>
+      <div id="carta">
       <div id="simboloArriba"></div>
       <div id="numero">A</div>
       <div id="simboloAbajo"></div>
     </div>
-    <div id="boton-nueva">
-      <button class="boton">Nueva Carta</button>
-    </div>
-    <script type="text/javascript" src="cartas.js"></script>
+    <div id="botoncenter">
+      <button class="button" style="vertical-align:middle">
+        <span>NEW CARD</span>
+        <button
+          class="button2"
+          id="btnCuentaAtras"
+          style="vertical-align:middle">
+          <span id="cuentaAtras">START</span>
+        </button>
+        <div>
+          <h3 style="color: aliceblue;"><strong></strong>
+            Enter a time below and press Start
+          </strong></h3>
+          <input
+            type="number"
+            class="form-control"
+            id="segundos"
+            size="20px"
+            placeholder="Time"/>
+        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="notificacion"></div>
+          </div>
+        </div>
+      </div>
+    <script src="app.js"></script>
   </body>
 </html>
