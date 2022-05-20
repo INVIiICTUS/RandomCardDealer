@@ -1,29 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
     <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="cartas-style.css" type="text/css" />
+    <title>Generador de Naipes</title>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div id="carta">
+      <div id="simboloArriba"></div>
+      <div id="numero">A</div>
+      <div id="simboloAbajo"></div>
     </div>
+    <div id="boton-nueva">
+      <button class="boton">Nueva Carta</button>
+    </div>
+    <script type="text/javascript" src="cartas.js"></script>
   </body>
 </html>
